@@ -1,0 +1,371 @@
+* {
+  font-family: "Hammersmith One", "microsoft jhenghei";
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(http://m.wsj.net/video/20141203/120314digitsbrain/120314digitsbrain_1280x720.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 350px 0px;
+}
+header.jumbotron h1 {
+  font-size: 50px;
+  font-family: "microsoft jhenghei";
+  font-weight: 900;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #5555FF;
+  border-radius: 2px;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+  font-size: 25px;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #5555FF;
+  background-attachment: fixed;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.0-9/12190971_1195953350433591_2916732084324022689_n.jpg?_nc_cat=0&oh=a9f276e92cff5cd93b62330f56bce0a7&oe=5B32E52D);
+  height: 300px;
+  width: 300px;
+  padding: 60px;
+  margin-left: -40px;
+  background-size: cover;
+}
+section#section_ask h3 {
+  margin-top: 50px;
+  padding-left: 30px;
+  line-height: 40px;
+  width: 150%;
+  color: white;
+}
+
+section#section_about {
+  padding: 0px;
+  padding-top: 50px;
+  background-color: #F2F2F2;
+}
+section#section_about img {
+  width: 130%;
+}
+section#section_about .img_wrap {
+  overflow: hidden;
+  height: 250px;
+}
+section#section_about h3 {
+  margin-top: 15px;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://assets.wired.com/photos/w_600/wp-content/uploads/2016/11/AIHP-571049769-600x338.jpg);
+  background-size: 100% auto;
+  height: 400px;
+}
+section#section_story .col-sm-5 .cross {
+  position: absolute;
+  left: 23%;
+  top: 40%;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+  padding: 20px;
+}
+section#section_story .col-sm-7 i {
+  font-size: 70px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+section#section_story .col-sm-12.features img {
+  height: 90px;
+}
+section#section_story .col-sm-12.features h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+section#section_story .col-sm-12 {
+  font-size: 20px;
+}
+
+.btn-4 button {
+  background: #F2F2F2;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  border: none;
+  border-left: 4px solid #8518F9;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  margin-left: -10px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.btn-4 button:hover {
+  background: #EE07A8;
+  /*   box-shadow: 4px 4px 0 #fff , 5px 15px 0 rgba(0,0,0,0.3); */
+  background: linear-gradient(to right, #8518F9 50%, #F2F2F2 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  margin-left: 0px;
+  /*   transition:all 2s ease; */
+  color: white;
+}
+.btn-4 button:active {
+  box-shadow: 0 0 0 #fff inset, 0 0 0 transparent;
+  -webkit-transform: translate(2px, 2px);
+  transform: translate(2px, 2px);
+}
+
+section#section_future img {
+  width: 100%;
+}
+section#section_future i {
+  font-size: 10px;
+
+}
+section#section_future .panel-heading{
+  background-color: #6E2BF3;
+}
+section#section_future .panel-title{
+  color: #fff;
+}
+section#section_future .feature {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+section#section_future .feature h3 {
+  font-size: 30px;
+}
+section#section_future .feature p {
+  font-size: 20px;
+}
+section#section_future .feature .panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #EEEEEE;
+}
+section#section_future .feature .panel-default > .panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  /* 		background-color: #FAFAFA; */
+  border-color: #EEEEEE;
+}
+section#section_future .feature .panel-title {
+  font-size: 15px;
+}
+section#section_future .feature .panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+section#section_future .feature .more-less {
+  float: right;
+  color: #212121;
+}
+section#section_future .feature .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #EEEEEE;
+  line-height: 32px;
+}
+
+section#section_project {
+  height: 1500px;
+  background-color: #f2f2f2;
+  /* background: linear-gradient(to bottom right, #432BF3, #6E2BF3); */
+}
+section#section_project img {
+  height: 220px;
+}
+
+section#section_project .img_wrap{
+  display: inline-block;
+  width: 350px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(http://m.wsj.net/video/20141203/120314digitsbrain/120314digitsbrain_1280x720.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 120px 0px;
+}
+footer.jumbotron h1 {
+  font-size: 50px;
+}
+footer.jumbotron input {
+  background-color: white;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #5555FF;
+  border-radius: 2px;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #5555FF;
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px 3px;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: #000;
+  opacity: 0.5;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  padding: 5px;
+  background-color: #6903E4;
+/*   padding: 3px 10px; */
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
