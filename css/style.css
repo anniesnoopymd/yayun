@@ -161,8 +161,15 @@ section#section_future i {
 section#section_future .panel-heading{
   background-color: #6E2BF3;
 }
+section#section_future .panel-heading:hover{
+  background-color: #f2f2f2;
+}
 section#section_future .panel-title{
   color: #fff;
+}
+section#section_future .panel-title:hover{
+  color: #6E2BF3;
+
 }
 section#section_future .feature {
   padding-top: 10px;
@@ -178,6 +185,8 @@ section#section_future .feature .panel-group .panel {
   border-radius: 0;
   box-shadow: none;
   border-color: #EEEEEE;
+  width: 100%;
+  margin-left: 50px;
 }
 section#section_future .feature .panel-default > .panel-heading {
   padding: 0;
@@ -196,10 +205,19 @@ section#section_future .feature .panel-title > a {
 }
 section#section_future .feature .more-less {
   float: right;
+  right: 20px;
   color: #212121;
+  font-size: 15px;
+  margin-top: 15px;
 }
 section#section_future .feature .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #EEEEEE;
+  line-height: 32px;
+}
+
+section#section_future .feature .strong{
+  font-weight: 900;
+  font-size: 18px;
   line-height: 32px;
 }
 
