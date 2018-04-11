@@ -16,7 +16,7 @@ a{
 
 header.jumbotron {
   text-align: center;
-  background-image: url(http://m.wsj.net/video/20141203/120314digitsbrain/120314digitsbrain_1280x720.jpg);
+  background-image: url(https://cdn.dribbble.com/users/1466123/screenshots/4115202/illustration.png);
   background-size: cover;
   background-attachment: fixed;
   margin-top: 0px;
@@ -169,7 +169,7 @@ section#section_future .panel-title{
 }
 section#section_future .panel-title:hover{
   color: #6E2BF3;
-
+  border: 2px solid #6E2BF3;
 }
 section#section_future .feature {
   padding-top: 10px;
@@ -237,14 +237,14 @@ section#section_project .img_wrap{
 
 footer.jumbotron {
   text-align: center;
-  background-image: url(http://m.wsj.net/video/20141203/120314digitsbrain/120314digitsbrain_1280x720.jpg);
+  background-image: url(https://cdn.dribbble.com/users/124059/screenshots/4251304/shot.png);
   background-size: cover;
   background-attachment: fixed;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 footer.jumbotron .container {
-  color: white;
+  color: #6E2BF3;
   padding: 120px 0px;
 }
 footer.jumbotron h1 {
