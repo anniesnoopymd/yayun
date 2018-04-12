@@ -14,6 +14,7 @@ a{
   text-decoration: none;
 }
 
+
 header.jumbotron {
   text-align: center;
   background-image: url(https://cdn.dribbble.com/users/1466123/screenshots/4115202/illustration.png);
@@ -28,7 +29,7 @@ header.jumbotron .container {
 }
 header.jumbotron h1 {
   font-size: 50px;
-  font-family: "microsoft jhenghei";
+  ffont-family: 'Josefin Sans', sans-serif;
   font-weight: 900;
 }
 header.jumbotron hr {
@@ -82,6 +83,35 @@ section#section_about h3 {
   margin-top: 15px;
 }
 
+section#section_about .rec{
+  width: 80px;
+  height: 20px;
+  background-color: #6E2BF3;
+  margin-left: 43%;
+  margin-top: -40px;
+}
+
+section#section_about .about_title{
+  font-family: 'Josefin Sans', sans-serif;
+  /* transform: rotate(-90deg);
+  padding-top: 0px;
+  margin-left: -1000px;
+  z-index: -99; */
+  font-size: 70px;
+  color: #888888;
+  margin-top: 0px;
+  margin-left: -150px;
+  font-weight: 900;
+}
+
+section#section_about .read_btn{
+  color: #888888;
+}
+
+section#section_about .read_btn:hover{
+  color: #fff;
+}
+
 section#section_story {
   background-color: #222;
   color: white;
@@ -122,6 +152,10 @@ section#section_story .col-sm-12 {
   font-size: 20px;
 }
 
+section#section_story h2{
+  font-size: 50px;
+}
+
 .btn-4 button {
   background: #F2F2F2;
   letter-spacing: 0.1em;
@@ -160,9 +194,10 @@ section#section_future i {
 }
 section#section_future .panel-heading{
   background-color: #6E2BF3;
+  /* background: linear-gradient(to right, #432BF3 10%, #6E2BF3 90%); */
 }
 section#section_future .panel-heading:hover{
-  background-color: #f2f2f2;
+  background: #f2f2f2;
 }
 section#section_future .panel-title{
   color: #fff;
@@ -221,6 +256,21 @@ section#section_future .feature .strong{
   line-height: 32px;
 }
 
+section#section_future h2{
+  font-size: 100px;
+  font-weight: 900;
+  color: #f2f2f2;
+  float: right;
+}
+
+section#section_future .rec{
+  width: 80px;
+  height: 20px;
+  background-color: #6E2BF3;
+  margin-left: 30%;
+  margin-top: -20px;
+}
+
 section#section_project {
   height: 1500px;
   background-color: #f2f2f2;
@@ -235,6 +285,20 @@ section#section_project .img_wrap{
   width: 350px;
 }
 
+section#section_project h2{
+  font-size: 70px;
+  font-weight: 900;
+  color: #888888;
+}
+
+section#section_project .rec{
+  width: 80px;
+  height: 20px;
+  background-color: #6E2BF3;
+  margin-left: 28%;
+  margin-top: -30px;
+}
+
 footer.jumbotron {
   text-align: center;
   background-image: url(https://cdn.dribbble.com/users/124059/screenshots/4251304/shot.png);
@@ -245,7 +309,7 @@ footer.jumbotron {
 }
 footer.jumbotron .container {
   color: #6E2BF3;
-  padding: 120px 0px;
+  padding: 200px 0px;
 }
 footer.jumbotron h1 {
   font-size: 50px;
