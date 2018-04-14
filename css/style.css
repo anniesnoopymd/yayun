@@ -248,6 +248,7 @@ section#section_future .feature .more-less {
 section#section_future .feature .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #EEEEEE;
   line-height: 32px;
+  font-size: 15px;
 }
 
 section#section_future .feature .strong{
@@ -267,7 +268,7 @@ section#section_future .rec{
   width: 80px;
   height: 20px;
   background-color: #6E2BF3;
-  margin-left: 30%;
+  margin-left: 28%;
   margin-top: -20px;
 }
 
